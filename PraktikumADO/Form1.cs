@@ -119,7 +119,7 @@ namespace PraktikumADO
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Error Latihan 2: " + ex.Message);
             }
         }
     }
