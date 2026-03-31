@@ -87,5 +87,7 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnHitungDosen_Click(object sender, EventArgs e)
     }
 }
