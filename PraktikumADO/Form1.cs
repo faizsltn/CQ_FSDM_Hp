@@ -106,5 +106,11 @@ namespace PraktikumADO
         }
 
         private void btnUpdateSKS_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }
+        }
     }
 }
