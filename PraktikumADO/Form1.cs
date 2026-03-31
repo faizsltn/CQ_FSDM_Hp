@@ -117,6 +117,10 @@ namespace PraktikumADO
                 MessageBox.Show("SKS Berhasil diupdate! Baris terpengaruh: " + hasil);
                 conn.Close();
             }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }
