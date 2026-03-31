@@ -140,15 +140,5 @@ namespace PraktikumADO
                 MessageBox.Show("Error Latihan 3: " + ex.Message);
             }
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

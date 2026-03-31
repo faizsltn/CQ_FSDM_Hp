@@ -92,7 +92,7 @@
             this.btnInsertProdi.TabIndex = 7;
             this.btnInsertProdi.Text = "Insert Prodi";
             this.btnInsertProdi.UseVisualStyleBackColor = true;
-            this.btnInsertProdi.Click += new System.EventHandler(this.button1_Click);
+            this.btnInsertProdi.Click += new System.EventHandler(this.btnInsertProdi_Click);
             // 
             // btnHitungDosen
             // 
@@ -102,7 +102,7 @@
             this.btnHitungDosen.TabIndex = 8;
             this.btnHitungDosen.Text = "Hitung Dosen";
             this.btnHitungDosen.UseVisualStyleBackColor = true;
-            this.btnHitungDosen.Click += new System.EventHandler(this.button2_Click);
+            this.btnHitungDosen.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
             // btnUpdateSKS
             // 
@@ -112,6 +112,7 @@
             this.btnUpdateSKS.TabIndex = 9;
             this.btnUpdateSKS.Text = "Update SKS";
             this.btnUpdateSKS.UseVisualStyleBackColor = true;
+            this.btnUpdateSKS.Click += new System.EventHandler(this.btnUpdateSKS_Click);
             // 
             // Form1
             // 
