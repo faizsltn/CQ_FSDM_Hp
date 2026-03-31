@@ -89,5 +89,16 @@ namespace PraktikumADO
         }
 
         private void btnHitungDosen_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Koneksi();
+                conn.Open();
+                cmd = new SqlCommand("SELECT COUNT(*) FROM Dosen", conn);
+                int jumlah = (int)cmd.ExecuteScalar();
+                txtHasil.Text = jumlah.ToString();
+                conn.Close();
+            }
+        }
     }
 }
