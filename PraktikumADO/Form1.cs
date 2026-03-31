@@ -109,7 +109,10 @@ namespace PraktikumADO
         {
             try
             {
-
+                Koneksi();
+                conn.Open();
+                string query = "UPDATE MataKuliah SET SKS = 4 WHERE KodeMK = 'IF210101'";
+                cmd = new SqlCommand(query, conn);
             }
         }
     }
