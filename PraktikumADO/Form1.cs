@@ -122,5 +122,7 @@ namespace PraktikumADO
                 MessageBox.Show("Error Latihan 2: " + ex.Message);
             }
         }
+
+        private void btnInsertProdi_Click(object sender, EventArgs e)
     }
 }
