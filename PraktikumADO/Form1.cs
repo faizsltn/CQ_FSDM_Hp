@@ -135,6 +135,9 @@ namespace PraktikumADO
                 MessageBox.Show("Data Prodi Baru Berhasil Disimpan!");
                 conn.Close();
             }
-        }
+            catch (Exception ex) 
+            {
+                MessageBox.Show("Error Latihan 3: " + ex.Message);
+            }
     }
 }
