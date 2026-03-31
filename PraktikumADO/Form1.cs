@@ -104,5 +104,7 @@ namespace PraktikumADO
                 MessageBox.Show("Error Latihan 1: " + ex.Message);
             }
         }
+
+        private void btnUpdateSKS_Click(object sender, EventArgs e)
     }
 }
